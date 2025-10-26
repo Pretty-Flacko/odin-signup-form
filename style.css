@@ -16,9 +16,27 @@ body {
     background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(0 0 0 / 0.5);
+}
+.logo-container img {
+    height: 140px;
+    margin: 1rem 0;
 }
 h1 {
     font-family: "Norse";
+    color: white;
+    font-size: 6rem;
+    margin: 0;
 }
 .right {
     flex: 2;
