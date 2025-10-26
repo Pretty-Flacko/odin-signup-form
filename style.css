@@ -13,7 +13,7 @@ body {
 }
 .left {
     flex: 1;
-    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
