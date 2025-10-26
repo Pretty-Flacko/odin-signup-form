@@ -41,8 +41,14 @@ h1 {
 .right {
     flex: 2;
 }
+section {
+    padding-left: 3rem;
+}
 .welcome-section, .bottom-section {
     background-color: rgb(249, 250, 251);
+}
+.welcome-section {
+    padding-top: 10rem;
 }
 h2 {
     margin: 0;
