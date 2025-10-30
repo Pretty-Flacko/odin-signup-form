@@ -53,6 +53,50 @@ section {
 h2 {
     margin: 0;
 }
+.form-section {
+    padding: 2rem 3rem;
+}
 .inputs {
     display: flex;
+    gap: 3rem;
+}
+label {
+    text-transform: uppercase;
+}
+input {
+    background-color: rgb(249, 250, 251);
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 0.25rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+input:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 4px rgba(74, 144, 226, 0.5);
+}
+input:invalid {
+    border-color: red;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+button:hover {
+    background-color: #4f613f;
+}
+.bottom-section a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
